@@ -1,0 +1,12 @@
+{
+  "name": "kamino-rpc-optimizer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "validate": "bun run src/validate.ts",
+    "benchmark": "bun run src/benchmark.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6"
+  }
+}
